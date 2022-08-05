@@ -1,0 +1,26 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/variables";
+
+$primary:       red;
+$secondary:     yellow;
+$success:       blue;
+$info:          yellowgreen;
+$warning:       black;
+$danger:        violet;
+$light:         brown;
+$dark:          white;
+
+$theme-colors: (
+    primary:    $primary,
+  secondary:  $secondary,
+  success:    $success,
+  info:       $info,
+  warning:    $warning,
+  danger:     $danger,
+  light:      $light,
+  dark:       $dark
+);
+
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
