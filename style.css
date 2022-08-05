@@ -10921,4 +10921,33 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  background-color: red;
+}
+
+@media (min-width: 576px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    background-color: orange;
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    background-color: yellow;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    background-color: yellowgreen;
+  }
+}
+@media (min-width: 1200px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    background-color: blueviolet;
+  }
+}
+@media (min-width: 1400px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    background-color: blue;
+  }
 }/*# sourceMappingURL=style.css.map */
